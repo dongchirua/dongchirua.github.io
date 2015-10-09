@@ -13,7 +13,7 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: Quy's Notepad++
+      title: QsNotepad++
 
 description: My play ground
 author:
