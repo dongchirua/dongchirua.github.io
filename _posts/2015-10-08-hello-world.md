@@ -4,13 +4,12 @@ title: Hello World!
 categories: [general, setup]
 tags: [jekyll, setup]
 fullview: true
-comments: true
+comments: false
 ---
 
-**Quy's Notepad++** is my play ground. In here, I would like to share interested stuffs. This blog is underconstruction. I will update very soon. 
+***Quy's Notepad++*** is my playground. In here, I would like to share interested stuffs. This blog is underconstruction. I will update very soon. 
 
-My blog uses **dbyll**, you can find its source code in GitHub on
-
+My blog is hosted by **GitHub**, uses **dbyll** theme, you can find theme source in GitHub on
 <a class="btn btn-default" href="https://github.com/dbtek/dbyll">Grab your copy now!</a>
 
 ---
