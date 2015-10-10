@@ -4,7 +4,7 @@ title: Hello World!
 categories: [general, setup]
 tags: [jekyll, setup]
 fullview: true
-comments: false
+comments: true
 ---
 
 ***Quy's Notepad++*** is my playground. In here, I would like to share interested stuffs. This blog is underconstruction. I will update very soon. 
