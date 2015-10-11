@@ -145,7 +145,7 @@
   </span>
 
   <h2>
-    <a href="/general/setup/2015/10/08/hello-world.html">Hello World!</a>
+    <a href="/general/setup/2015/10/08/hello-world/">Hello World!</a>
   </h2>
 
   <div>
@@ -158,7 +158,42 @@
 <hr>
 
 <p>updated 10/10/2015 3:34:51 PM 
-My page has supported \( \LaTeX  \)</p>
+My page can use \( \LaTeX  \)</p>
+
+<p>10/11/2015 6:26:31 PM 
+My page can highlight code</p>
+
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="c"># Python</span>
+<span class="kn">from</span> <span class="nn">pandas</span> <span class="nn">as</span> <span class="nn">pd</span>
+<span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s">&#39;data.tsv&#39;</span><span class="p">,</span><span class="n">sep</span><span class="o">=</span><span class="s">&#39;</span><span class="se">\t</span><span class="s">&#39;</span><span class="p">)</span></code></pre></div>
+
+<div class="highlight"><pre><code class="language-c--" data-lang="c++"><span class="cm">/* C/C++ */</span>
+<span class="cp">#include &lt;iostream&gt;</span>
+
+<span class="k">namespace</span> <span class="n">__hidden__</span> <span class="p">{</span>
+  <span class="k">struct</span> <span class="n">print</span> <span class="p">{</span>
+    <span class="kt">bool</span> <span class="n">space</span><span class="p">;</span>
+    <span class="n">print</span><span class="p">()</span> <span class="o">:</span> <span class="n">space</span><span class="p">(</span><span class="nb">false</span><span class="p">)</span> <span class="p">{}</span>
+    <span class="o">~</span><span class="n">print</span><span class="p">()</span> <span class="p">{</span> <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span> <span class="p">}</span>
+
+    <span class="k">template</span> <span class="o">&lt;</span><span class="k">typename</span> <span class="n">T</span><span class="o">&gt;</span>
+    <span class="n">print</span> <span class="o">&amp;</span><span class="k">operator</span> <span class="p">,</span> <span class="p">(</span><span class="k">const</span> <span class="n">T</span> <span class="o">&amp;</span><span class="n">t</span><span class="p">)</span> <span class="p">{</span>
+      <span class="k">if</span> <span class="p">(</span><span class="n">space</span><span class="p">)</span> <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="sc">&#39; &#39;</span><span class="p">;</span>
+      <span class="k">else</span> <span class="n">space</span> <span class="o">=</span> <span class="nb">true</span><span class="p">;</span>
+      <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">t</span><span class="p">;</span>
+      <span class="k">return</span> <span class="o">*</span><span class="k">this</span><span class="p">;</span>
+    <span class="p">}</span>
+  <span class="p">};</span>
+<span class="p">}</span>
+
+<span class="cp">#define print __hidden__::print(),</span>
+
+<span class="kt">int</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
+  <span class="kt">int</span> <span class="n">a</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="n">b</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span>
+  <span class="n">print</span> <span class="s">&quot;this is a test&quot;</span><span class="p">;</span>
+  <span class="n">print</span> <span class="s">&quot;the sum of&quot;</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="s">&quot;and&quot;</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="s">&quot;is&quot;</span><span class="p">,</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span><span class="p">;</span>
+  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span></code></pre></div>
 
     
   </div>

@@ -7,6 +7,9 @@ highlighter: pygments
 markdown: redcarpet # kramdown
 disqus: qsnotepad
 google_analytics: UA-68629572-1
+url: http://nhquy.com
+permalink:           pretty
+relative_permalinks: true
 
 defaults:
   -

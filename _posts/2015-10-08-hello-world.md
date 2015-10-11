@@ -14,4 +14,42 @@ My blog is hosted by **GitHub**, uses **dbyll** theme, you can find theme source
 
 ---
 updated 10/10/2015 3:34:51 PM 
-My page has supported \\( \LaTeX  \\)
+My page can use \\( \LaTeX  \\)
+
+10/11/2015 6:26:31 PM 
+My page can highlight code
+{% highlight python %}
+# Python
+from pandas as pd
+pd.read_csv('data.tsv',sep='\t')
+{% endhighlight %}
+
+{% highlight C++ %}
+/* C/C++ */
+#include <iostream>
+
+namespace __hidden__ {
+  struct print {
+    bool space;
+    print() : space(false) {}
+    ~print() { std::cout << std::endl; }
+
+    template <typename T>
+    print &operator , (const T &t) {
+      if (space) std::cout << ' ';
+      else space = true;
+      std::cout << t;
+      return *this;
+    }
+  };
+}
+
+#define print __hidden__::print(),
+
+int main() {
+  int a = 1, b = 2;
+  print "this is a test";
+  print "the sum of", a, "and", b, "is", a + b;
+  return 0;
+}
+{% endhighlight %}
