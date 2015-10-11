@@ -13,15 +13,15 @@ My blog is hosted by **GitHub**, uses **dbyll** theme, you can find theme source
 <a class="btn btn-default" href="https://github.com/dbtek/dbyll">Grab your copy now!</a>
 
 ---
-updated 10/10/2015 3:34:51 PM 
+*updated* 10/10/2015 3:34:51 PM 
 My page can use \\( \LaTeX  \\)
 
-10/11/2015 6:26:31 PM 
+*updated* 10/11/2015 6:26:31 PM 
 My page can highlight code
 {% highlight python %}
 # Python
-from pandas as pd
-pd.read_csv('data.tsv',sep='\t')
+import pandas as pd
+import numpy as np
 {% endhighlight %}
 
 {% highlight C++ %}
