@@ -21,7 +21,7 @@ My page can highlight code
 {% highlight python %}
 # Python
 import pandas as pd
-import numpy as np
+print "Hello, i'm a message"
 {% endhighlight %}
 
 {% highlight C++ %}
