@@ -12,15 +12,15 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: QsNotepad++
+      title: Bryan Note
 
-description: My play ground
+description: small steps for novices
 author:
-  name: Hồng Quy
-  email: quy@faircare.io
-  bio: Data Science Engineer
+  name: Bryan Nguyen
+  email: quy_nguyen@knorex.com
+  bio: Full Stack Over Flow Engineer
   linkedin: hongquy
-  email_md5: 1f666b3428d24513c8376b9be1463d8c
+  email_md5: 04b4bf7d93ffa782657ac8561f1cbd3c
 
 rss_path: feed.xml
 categories_path: categories.html
