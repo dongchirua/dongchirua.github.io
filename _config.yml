@@ -13,7 +13,7 @@ defaults:
       path: "" # empty string for all files
     values:
       title: Bryan
-      description: notes of novice
+      description: notes of a novice
 author:
   name: Bryan Nguyễn
   email: quy_nguyen@knorex.com
@@ -26,6 +26,7 @@ author:
 rss_path: feed.xml
 categories_path: categories.html
 tags_path: tags.html
+cv_path: cv.html
 # sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
 
 BASE_PATH:
