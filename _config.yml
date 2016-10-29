@@ -13,7 +13,7 @@ defaults:
       path: "" # empty string for all files
     values:
       title: Bryan
-      description: notes for novices
+      description: notes of novice
 author:
   name: Bryan Nguyễn
   email: quy_nguyen@knorex.com
