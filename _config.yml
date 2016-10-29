@@ -12,7 +12,7 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: Bryan's Notes
+      title: Bryan Nguyễn
       description: small steps for novices
 author:
   name: Bryan Nguyễn
