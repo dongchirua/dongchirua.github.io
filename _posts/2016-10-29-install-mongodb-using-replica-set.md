@@ -8,7 +8,7 @@ comments: true
 ---
 One of my previous works was to set up an infrastructure with MongoDB. If you asked me why MongoDB, I would say it was due to sort of legacy. The thing was, I had been struggling for replication installation until I found a way to complete. In this post, I share my steps to achieve with some references.
 
-Foremost, a replica set means there are several database nodes maintaining the same data set. In reality, my application will connect to these nodes, Mongo itself will allow writing onto its primary node while secondary will clone data after a short particular period time. When primary has a problem, the cluster will vote to differentiate primary and secondaries.
+Foremost, a replica set means there are several database nodes maintaining the same data set. In reality, my application will connect to these nodes, Mongo itself will allow writing onto its primary node while secondary will clone data after a short particular period time. When the primary has a problem, the cluster will vote to differentiate  new primary and secondaries.
 
 My problem was the incorrect configuration for my cluster, therefore, these nodes can not communicate. My configuration used IP information which will probably cause some communication problems when these addresses change. Anyway, my post just shows how it works. Bear in mind that I use Docker to install MongoDB so need to install Docker first.
 
