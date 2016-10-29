@@ -44,7 +44,7 @@ mongo mongod --replSet rs0
 
 **My configuration**
 
-If you make a incorrect configuration, these nodes can not find each other [^problem] or you can get MongoDB connection error [^error].
+If you make an incorrect configuration, these nodes can not find each other [^problem] or you can get MongoDB connection error [^error].
 
 {% highlight json %}
 config = {
@@ -60,7 +60,7 @@ rs.initiate(config)
 
 **Verification**
 
-To verify, You can use this command
+To verify, you can use this command
 {% highlight bash %}
 mongo --host replicaSetName/host1[:porthost1],host2[:porthost1],host3[:porthost3] databaseToConnect
 {% endhighlight %}
