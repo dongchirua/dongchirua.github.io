@@ -71,6 +71,6 @@ mongo --host rs0/10.164.5.85:27018,10.164.5.85:27019,10.164.5.85:27020 scheduler
 
 ***References***
 
-[^docker]: http://www.sohamkamani.com/blog/2016/06/30/docker-mongo-replica-set/
-[^problem]: http://stackoverflow.com/questions/39656654/mongo-replica-set-cant-find-primary
-[^error]: http://stackoverflow.com/questions/39572882/how-to-setup-a-valid-mongo-replicaset
+[^docker]: [http://www.sohamkamani.com/blog/2016/06/30/docker-mongo-replica-set/](http://www.sohamkamani.com/blog/2016/06/30/docker-mongo-replica-set/){:hreflang="en"}
+[^problem]: [http://stackoverflow.com/questions/39656654/mongo-replica-set-cant-find-primary](http://stackoverflow.com/questions/39656654/mongo-replica-set-cant-find-primary){:hreflang="en"}
+[^error]: [http://stackoverflow.com/questions/39572882/how-to-setup-a-valid-mongo-replicaset](http://stackoverflow.com/questions/39572882/how-to-setup-a-valid-mongo-replicaset){:hreflang="en"}
