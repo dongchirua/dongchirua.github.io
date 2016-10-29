@@ -12,8 +12,8 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: Bryan Nguyễn
-      description: small steps for novices
+      title: Bryan
+      description: notes for novices
 author:
   name: Bryan Nguyễn
   email: quy_nguyen@knorex.com
