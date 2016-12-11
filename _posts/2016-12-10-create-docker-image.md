@@ -17,7 +17,7 @@ I start with ubuntu 16:04
 FROM ubuntu:16.04
 {% endhighlight %}
 
-Installing my desire components like 
+Installing my desire components like
 {% highlight dockerfile %}
 RUN apt-get update && \
     apt-get install -y --force-yes --no-install-recommends\
@@ -53,7 +53,7 @@ What you need to do next is to change directory as same level as Dockerfile and 
 
 ***What I Learnt***
 
-Finding instructions to build an image is usually annoying because some lines in Dockerfile may occur errors and a trial consumes time. To understand, suppose my Dockerfile had 3 lines, I observed an error had happened at last line. Obviously, I would have to fix, run and wait. As I mentioned, emotion is problematic hence I think about acceleration. 
+Finding instructions to build an image is usually annoying because some lines in Dockerfile may occur errors and a trial consumes time. To understand, suppose my Dockerfile had 3 lines, I observed an error had happened at last line. Obviously, I would have to fix, run and wait. As I mentioned, emotion is problematic hence I think about acceleration.
 
 The fact is Docker caches preceding layers[^layer] so I do follow suggestions from [the best docker practices](https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices). But I want more than that so I have an idea which I will build on a correct images. It means I break Dockerfile into parts, for lines from beginning don't cause error will be a correct one, rest of lines are on working Dockerfile. These parts have been connected by `FROM my_image:previous_correct`
 
@@ -65,7 +65,7 @@ RUN apt-get update && apt-get install -y
 then I build and name it as based image `docker build -t mine:based .`. Next I just focus on working part like
 {% highlight dockerfile %}
 FROM mine:based
-RUN apt-get install ... # line may get error 
+RUN apt-get install ... # line may get error
 {% endhighlight %}
 Eventually, everything is correct, I'm able to make a single final file.
 
@@ -77,4 +77,4 @@ Another thing, inside container of Ubuntu:16.04, you're not to use `sudo` at beg
 [^syntax]: [Dockerfile Syntax](https://docs.docker.com/engine/reference/builder/)
 [^whyCMD]: [What is CMD](https://www.ctl.io/developers/blog/post/dockerfile-entrypoint-vs-cmd/)
 [^layer]: [Each command such as `RUN`, Docker creates a layer and caches](http://stackoverflow.com/questions/31222377/what-are-docker-image-layers)
-[^why]: [Explain why we don't need to use sudo inside container of Ubuntu:16.04](https://github.com/tianon/docker-brew-ubuntu-core/issues/48)
+[^why]: [Explain why we don't need to use `sudo` inside container of Ubuntu:16.04](https://github.com/tianon/docker-brew-ubuntu-core/issues/48)
