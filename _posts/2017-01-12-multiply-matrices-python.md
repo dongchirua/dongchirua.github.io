@@ -64,8 +64,10 @@ import numpy as np
 np.dot([[1,2,3],[4,5,6]], [[7,8],[9,10],[11, 12]]) 
 {% endhighlight %}
 
+Source [`here`](http://rosettacode.org/wiki/Matrix_multiplication#Python)
+
+**References**
+
 [^zip]: [`zip()`](https://docs.python.org/2/library/functions.html#zip)
 [^enumerate]: [`enumerate()`](https://docs.python.org/2/library/functions.html#enumerate)
 [^unpack]: [`*`](https://codeyarns.com/2012/04/26/unpack-operator-in-python/)
-
-Source [`here`](http://rosettacode.org/wiki/Matrix_multiplication#Python)
