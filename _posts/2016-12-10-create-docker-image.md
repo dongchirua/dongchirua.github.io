@@ -2,7 +2,7 @@
 layout: post
 title: How to build a docker image having Nodejs, Ruby, Python on Ubuntu:16.04
 categories: [Engineering]
-tags: [note, tutorial, setup, Docker, Nodejs, Python, Ubuntu, Ruby]
+tags: [Docker, Nodejs, Python, Ubuntu, Ruby]
 fullview: true
 comments: true
 ---
@@ -10,7 +10,7 @@ Beforehand, please install Docker on your machine. If you use `macOS`, I highly 
 
 **Step 1 - Preparing**
 
-A Dockerfile which is a set of instructions to make an image. Dockerfile syntax[^syntax] isn't complicated so I put [mine](https://gist.github.com/dongchirua/657447d1d3174b653373f9aa55977483) to demonstrate and explain thorough comments.
+A Dockerfile which is a set of instructions to make an image. Dockerfile syntax[^syntax] isn't complicated so I put [`mine`](https://gist.github.com/dongchirua/657447d1d3174b653373f9aa55977483) to demonstrate and explain thorough comments.
 
 I start with ubuntu 16:04
 {% highlight dockerfile %}

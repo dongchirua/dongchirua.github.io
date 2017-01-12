@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Hello World!
-categories: [general, setup]
-tags: [Jekyll, setup]
+categories: [Setup]
+tags: [Jekyll]
 fullview: true
 comments: true
 ---

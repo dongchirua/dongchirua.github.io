@@ -2,7 +2,7 @@
 layout: post
 title: Install MongoDB with Replication on Docker
 categories: [Engineering]
-tags: [note, tutorial, setup, MongoDB, Docker]
+tags: [MongoDB, Docker]
 fullview: true
 comments: true
 ---
