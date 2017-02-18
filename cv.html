@@ -1,8 +1,43 @@
 ---
 layout: page
-title: Curriculum Vitae
-header: Posts By Category
+title: Resume
 group: navigation
 ---
 
-empty
+<div class="col-sm-3 col-xs-6">
+    <ul class="nav nav-tabs-vertical cat-tag-menu">
+        <li class="active">
+            <a href="#prof-ref">
+                {{ "Professional" | capitalize }}
+            </a>
+        </li>
+        <li>
+            <a href="#edu-ref">
+                {{ "Education" | capitalize }}
+            </a>
+        </li>
+        <li>
+            <a href="#pubs-ref">
+                {{ "Publications" | capitalize }}
+            </a>
+        </li>
+    </ul>
+</div>
+
+<div class="tab-content col-sm-9 col-xs-6">
+    <div class="tab-pane active" id="prof-ref">
+      <h2 style="margin-top: 0px">Professional</h2>
+      <span class="badge">Update: {{ "18 Feb 2017"| date_to_long_string}}</span>
+      <ul class="list-unstyled">
+        <li style="line-height: 35px;">
+          <a href="https://knorex.com/"><h3>Knorex</h3></a>
+          <span>Big Data Engineer</span>
+        </li>
+      </ul>
+    </div>
+    <div class="tab-pane" id="edu-ref">
+      <h2 style="margin-top: 0px">Edu</h2>
+    </div>
+</div>
+
+<div class="clearfix"></div>
