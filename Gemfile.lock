@@ -151,9 +151,10 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-gist
   kramdown
   octopress (~> 3.0.0.rc.12)
   rouge
 
 BUNDLED WITH
-   1.13.3
+   1.13.6

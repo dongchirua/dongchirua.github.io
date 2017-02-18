@@ -35,3 +35,4 @@ cv_path: cv.html
 BASE_PATH:
 gems:
   - jekyll-paginate
+  - jekyll-gist
