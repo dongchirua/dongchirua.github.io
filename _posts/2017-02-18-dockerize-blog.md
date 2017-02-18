@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Dockerize My Blog
-categories: [Engineer]
+categories: [Engineering]
 tags: [Jekyll, Docker]
 fullview: true
 comments: true
