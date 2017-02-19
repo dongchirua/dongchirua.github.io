@@ -19,4 +19,4 @@ Let me share mime.
   - `docker run -d -p 4000:4000 -v [path/to/blog]:/src:rw --name blog jekyll`
     - e.g `docker run -d -p 4000:4000 -v /Users/quy/dongchirua:/src:rw --name blog jekyll`
 
-After running container, Jekyll won't bother me anymore 😋. Besides, every change will be synced automatically to the container, just refresh my browser at http://localhost:4000 (I use docker for Mac).
+After running container, Jekyll won't bother me anymore 😋. Besides, every change will be synced automatically to the container, just refresh my browser at http://localhost:4000 (I use docker for Mac). Unfortunately, there is a drawback which costs 879 MB on disk 🤓.
