@@ -1,9 +1,8 @@
 <!-- sidebar.html -->
 <header class="sidebar-header" role="banner">
-    <img src="http://www.gravatar.com/avatar/{{site.author.email_md5}}?s=150" class="img-circle"/>
-    <h3 class="title">
-        {{ site.title }}
-    </h3>
+    <a href="{{ site.BASE_PATH }}/">
+        <img src="http://www.gravatar.com/avatar/{{site.author.email_md5}}?s=150" class="img-circle"/>
+    </a>
 </header>
 
 {% if site.author.bio %}
