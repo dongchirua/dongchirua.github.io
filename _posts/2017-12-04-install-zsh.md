@@ -7,7 +7,7 @@ fullview: true
 comments: false
 ---
 
-MacOS, as well as Linux, has its own default shell but [`Zsh`](http://www.zsh.org/) is an awesome alternative because of its capability to customize following my preference. This note was planned to share steps of installation and my selected configurations, in addition to, I will introduce some tools that I have been using to have on my machine recently. The prerequisite of this blog is [`brew`](https://brew.sh/), like `apt-get` on Ubuntu, to install some packages without lifting fingers.
+MacOS, as well as Linux, has its own default shell but [`Zsh`](http://www.zsh.org/) is an awesome alternative because of its capability to customize following my preference. This note was planned to share steps of installation and my selected configurations, in addition to, I will introduce some tools that I have been using to have on my machine recently. The prerequisite of this blog is [`brew`](https://brew.sh/), like `apt-get` on Ubuntu, to install some packages without lifting fingers much as usual 🍻.
 
 This [`article`](https://gist.github.com/derhuerst/12a1558a4b408b3b2b6e) was well written, easy to install for MacOS.
 Next step is to install [`auto-suggestion`](https://github.com/zsh-users/zsh-autosuggestions) which its name tells a fact, supporting to type a command super fast by reminding usage history.
