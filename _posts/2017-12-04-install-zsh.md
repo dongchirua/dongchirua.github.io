@@ -16,7 +16,7 @@ Next step is to install [`auto-suggestion`](https://github.com/zsh-users/zsh-aut
 
 I need something is fancy enough that I can easily recognize commands and associated parameters, [`syntax-highlight`](https://github.com/zsh-users/zsh-syntax-highlighting) fits my need. Again, brew helps me a lot `brew install zsh-syntax-highlighting`.
 
-Another cool plugin is [`zsh-autosuggestions`](https://github.com/zsh-users/zsh-completions) but using `brew`, it seems that I don't need to bother, explore [`here`](https://unix.stackexchange.com/questions/126785/zsh-completion-of-brew-formulas)
+Another cool plugin is [`zsh-completions`](https://github.com/zsh-users/zsh-completions) but using `brew`, it seems that I don't need to bother, explore [`here`](https://unix.stackexchange.com/questions/126785/zsh-completion-of-brew-formulas)
 
 [`oh-my-zsh`](http://ohmyz.sh/) is the last addon that I manage to post here. Using this plugin, we have a good way to colorize your terminal through a bunch of [themes](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes) and a relatively big community. For instance, my favorite shell was captured below
 <img src="https://cloud.githubusercontent.com/assets/2618447/6316718/51a2fd9a-ba00-11e4-845a-24bed6ae9210.png">
