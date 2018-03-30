@@ -21,7 +21,7 @@ Another cool plugin is [`zsh-autosuggestions`](https://github.com/zsh-users/zsh-
 [`oh-my-zsh`](http://ohmyz.sh/) is the last addon that I manage to post here. Using this plugin, we have a good way to colorize your terminal through a bunch of [themes](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes) and a relatively big community. For instance, my favorite shell was captured below
 <img src="https://cloud.githubusercontent.com/assets/2618447/6316718/51a2fd9a-ba00-11e4-845a-24bed6ae9210.png">
 
-Zsh isn't applied unless I invoke it hence the last step is to change default shell. This part in MacOS is [`tricky`]((https://stackoverflow.com/questions/31034870/making-zsh-default-shell-in-macosx) because it requires detecting the location of Zsh shell then register it to `/etc/shells`. My command was
+Zsh isn't applied unless I invoke it hence the last step is to change default shell. This part in MacOS is [`tricky`](https://stackoverflow.com/questions/31034870/making-zsh-default-shell-in-macosx) because it requires detecting the location of Zsh shell then register it to `/etc/shells`. My command was
 {% highlight bash %}
 sudo echo "$(which zsh)" >> /etc/shells && chsh -s $(which zsh)
 {% endhighlight %}
