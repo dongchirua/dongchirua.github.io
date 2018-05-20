@@ -13,7 +13,7 @@ defaults:
       path: "" # empty string for all files
     values:
       title: Bryan
-      description: a bussiness of notes from a novice
+      description: notes from a novice
 author:
   name: Bryan Nguyễn
   email: hongquy@inspectorio.com
