@@ -39,5 +39,4 @@ gems:
   - jekyll-paginate
   - jekyll-gist
   - jemoji
-  - jekyll-coffeescript
   - jekyll-language-plugin
