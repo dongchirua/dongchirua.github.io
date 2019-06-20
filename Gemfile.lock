@@ -260,6 +260,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-coffeescript
   jekyll-gist
   jekyll-language-plugin
   jemoji
