@@ -1,4 +1,5 @@
 # visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+github: [metadata]
 paginate: 7 # pagination based on number of posts
 paginate_path: "page:num"
 exclude: ["README.md"] # files to exclude
@@ -13,11 +14,11 @@ defaults:
       path: "" # empty string for all files
     values:
       title: Bryan
-      description: notes from a novice
+      description: quick notes
 author:
   name: Bryan Nguyễn
   email: hongquy@inspectorio.com
-  bio: Full Stack-Over-Flow Engineer
+  bio: Full Stack-Over-Flow Data Science
   linkedin: hongquy
   github: dongchirua
   instagram: dongchirua
@@ -35,8 +36,11 @@ cv_path: cv.html
 language_data: data.lang.vi
 language_includes_dir: _languages
 BASE_PATH: 
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-gist
   - jemoji
   - jekyll-language-plugin
+include:
+  - "_imgs"
+  - "_notebooks"
