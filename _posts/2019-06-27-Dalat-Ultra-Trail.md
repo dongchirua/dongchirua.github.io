@@ -13,6 +13,7 @@ Last March, I attended an ultra trail in Dalat, Lam Dong, Vietnam. I felt good a
 Generated above figure quite easy, check my notebook out at [`here`]({{ site.url }}/_notebooks/DUT 2019 - 21KM.ipynb) or below snippet
 
 {% highlight python %}
+import matplotlib.pyplot as plt
 plt.style.use('seaborn-deep')
 plt.hist(male.time, bins, alpha=0.5, label='male')
 plt.hist(female.time, bins, alpha=0.5, label='female')
