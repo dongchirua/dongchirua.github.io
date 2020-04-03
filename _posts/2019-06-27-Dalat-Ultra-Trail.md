@@ -8,7 +8,7 @@ comments: true
 ---
 Last March, I attended an ultra trail in Dalat, Lam Dong, Vietnam. I felt good at my performance but wondering how good others did. I managed to crawl data and visualize DUT's data.
 
-![]({{ site.url }}/_imgs/2019-06-27/DUT2019.png =100x20)
+![]({{ site.url }}/_imgs/2019-06-27/DUT2019.png){:class="img-responsive"}
 
 Generated above figure quite easy, check my notebook out at [`here`]({{ site.url }}/_notebooks/DUT 2019 - 21KM.ipynb) or below snippet
 
