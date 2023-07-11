@@ -17,7 +17,7 @@ defaults:
       description: quick notes
 author:
   name: Bryan Nguyễn
-  email: hongquy@inspectorio.com
+  # email: dongchirua@live.com
   bio: Full Stack-Over-Flow Data Science
   linkedin: hongquy
   github: dongchirua
